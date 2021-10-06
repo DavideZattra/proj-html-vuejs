@@ -16,9 +16,8 @@
             <ul class="d-flex justify-content-center">
 
               <li v-for="(element, index) in sectionList" :key="index">
-                <a class="text-capitalize" :class="{active : element.active}" :href="element.url">
-                  {{ element.name }}
-                </a>                
+                <MainNavbarItem  :element='element'/>
+                               
               </li>
 
             </ul>
@@ -26,7 +25,6 @@
           </nav>
 
         </div>
-        <MainNavbar />
 
       </div>
     </section>
@@ -35,14 +33,14 @@
 
 <script>
 import Topnavbar from './TopHeaderNavbar.vue';
-import MainNavbar from './MainHeaderNavbar.vue';
+import MainNavbarItem from './MainHeaderNavbar.vue';
 
 export default {
   name: 'Header',
 
   components : {
     Topnavbar,
-    MainNavbar,
+    MainNavbarItem,
   },
 
   data: function(){
@@ -88,8 +86,5 @@ export default {
 
 <style scoped lang="scss">
 @import '../style/variables.scss';
-.active{
-  color: red;
-  border-bottom: 2px solid red;
-}
+
 </style>
