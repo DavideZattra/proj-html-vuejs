@@ -19,6 +19,9 @@ components :{
 }
 </script>
 
-<style>
-
+<style lang='scss' scoped> 
+main{
+  height: 100vh;
+  background-color: gray;
+}
 </style>

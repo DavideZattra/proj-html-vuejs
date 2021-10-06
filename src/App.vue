@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :sectionList="sectionList"/>
     <Main />
-    <Footer />
+    <Footer :sectionList="sectionList"/>
   </div>
 </template>
 
@@ -17,6 +17,42 @@ export default {
     Header,
     Main,
     Footer
+  },
+  data: function(){
+    return{
+      sectionList: [
+        {
+          name : 'home',
+          url : '#',
+          selected : true,
+        },
+        {
+          name : 'recipes',
+          url : '#',
+          selected : false,
+        },
+        {
+          name : 'places',
+          url : '#',
+          selected : false,
+        },
+        {
+          name : 'blog',
+          url : '#',
+          selected : false,
+        },
+        {
+          name : 'about',
+          url : '#',
+          selected : false,
+        },
+        {
+          name : 'contact',
+          url : '#',
+          selected : false,
+        },
+      ]
+    }
   }
 }
 </script>

@@ -38,47 +38,15 @@ import MainNavbarItem from './HeaderMainNavbar.vue';
 export default {
   name: 'Header',
 
+  props : ['sectionList'],
+
   components : {
     Topnavbar,
     MainNavbarItem,
   },
 
-  data: function(){
-    return{
-      sectionList: [
-        {
-          name : 'home',
-          url : '#',
-          active : true,
-        },
-        {
-          name : 'recipes',
-          url : '#',
-          active : false,
-        },
-        {
-          name : 'places',
-          url : '#',
-          active : false,
-        },
-        {
-          name : 'blog',
-          url : '#',
-          active : false,
-        },
-        {
-          name : 'about',
-          url : '#',
-          active : false,
-        },
-        {
-          name : 'contact',
-          url : '#',
-          active : false,
-        },
-      ]
-    }
-  }
+  
+  
   //   msg: String
   // }
 }

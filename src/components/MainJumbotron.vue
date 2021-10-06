@@ -1,17 +1,22 @@
 <template>
   <section id="ms_jumbotron">
-      <TodayPicks />
+
+    <TodayPicks />
+
+    <FoodieJournal />
+    
   </section>
 </template>
 
 <script>
 import TodayPicks from './JumbotronPicks.vue'
+import FoodieJournal from './JumbotronJournal.vue'
 
 export default {
 name : 'Jumbotron',
 components : {
     TodayPicks,
-    // FoodieJournal
+    FoodieJournal
 }
 }
 </script>
