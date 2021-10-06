@@ -9,7 +9,7 @@
           <a href="#"><img src="../assets/img/avada-food-logo.png" alt="Main Avada Logo"></a>
         </div>
 
-        <div class="col-12">
+        <div class="col-12 pb-2">
 
           <nav>
 
@@ -32,8 +32,8 @@
 </template>
 
 <script>
-import Topnavbar from './TopHeaderNavbar.vue';
-import MainNavbarItem from './MainHeaderNavbar.vue';
+import Topnavbar from './HeaderTopNavbar.vue';
+import MainNavbarItem from './HeaderMainNavbar.vue';
 
 export default {
   name: 'Header',
