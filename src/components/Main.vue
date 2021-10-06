@@ -1,20 +1,28 @@
 <template>
   <main>
     <Jumbotron />
+    <Popular />
+    <Collection />
+    <!-- <FarmToTable /> -->
+    <Subscribe />
   </main>
 </template>
 
 <script>
-import Jumbotron from './MainJumbotron.vue'
+import Jumbotron from './MainJumbotron.vue';
+import Popular from './MainPopular.vue';
+import Collection from './MainCollection.vue';
+// import FarmToTable from './MainFarmToTable.vue';
+import Subscribe from './MainSubscribe.vue';
 
 export default {
 name : 'Main',
 components :{
   Jumbotron,
-  // Popular,
-  // Collection,
+  Popular,
+  Collection,
   // FarmToTable,
-  // Hero
+  Subscribe
   }
 }
 </script>
@@ -23,7 +31,7 @@ components :{
 @import '../style/variables.scss';
 
 main{
-  height: 100vh;
-  background-color: $mainDarkGrayColor;
+  min-height: 100vh;
+  background-color: $mainLightGrayColor;
 }
 </style>

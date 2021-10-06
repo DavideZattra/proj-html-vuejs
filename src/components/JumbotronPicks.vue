@@ -15,6 +15,8 @@ name: 'TodayPicks'
 </script>
 
 <style lang='scss' scoped>
+@import '../style/variables.scss';
+
 #ms_today-picks{
     position: absolute;
     top: 50%;
@@ -32,7 +34,7 @@ name: 'TodayPicks'
 
         border-radius: 5px;
         padding: 2.5px 7.5px;
-        background-color: orange;
+        background-color: $mainOrangeColor;
 
         h5{
         
