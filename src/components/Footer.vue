@@ -81,6 +81,19 @@ footer{
     text-transform: uppercase;
     color: $mainOrangeColor;
   }
+  i{
+    padding-right: 10px;
+  }
+}
+
+#ms_lower-footer{
+  background-color: $mainLightGrayColor;
+  height: 50px;
+
+  p{
+    line-height: 50px;
+    margin: 0;
+  }
 }
 
 </style>

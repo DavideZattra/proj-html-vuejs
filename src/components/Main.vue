@@ -20,8 +20,10 @@ components :{
 </script>
 
 <style lang='scss' scoped> 
+@import '../style/variables.scss';
+
 main{
   height: 100vh;
-  background-color: gray;
+  background-color: $mainDarkGrayColor;
 }
 </style>
