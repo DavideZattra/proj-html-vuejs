@@ -88,7 +88,7 @@ footer{
       }
       i{
         padding-top: 25px;
-        color: $mainDarkGrayColor;
+        color: #6a6b6c;
       }
     }
   
@@ -100,7 +100,7 @@ footer{
     }
     #ms_contacts{
 
-      color: $mainDarkGrayColor;
+      color: #6a6b6c;
       i{
       padding-right: 10px;
     }
@@ -121,7 +121,7 @@ footer{
       height: 35px;
       width: 35px;
       color: white;
-      background-color: $mainDarkGrayColor;
+      background-color: #6a6b6c;
       border-radius: 50%;
       line-height: 35px;
 
