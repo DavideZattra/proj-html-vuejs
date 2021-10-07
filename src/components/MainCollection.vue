@@ -97,7 +97,7 @@ name : 'CulinaryCollection',
     .ms_card{
         
         height: 100%;
-        background-color: $mainWhiteColor;
+        background-color: white;
         text-align: center;
         
     
