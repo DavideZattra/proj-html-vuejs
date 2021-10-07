@@ -29,7 +29,7 @@
 
         <div class="col-12 pb-2">
 
-          <nav>
+          <nav class="ms_main-nav">
 
             <ul class="p-0 d-flex justify-content-between">
 
@@ -39,7 +39,7 @@
                 </a>                                
               </li>
 
-              <li><a href="#"></a><i class="fas fa-search"></i></li>
+              <li><a href="#"><i class="fas fa-search"></i></a></li>
 
             </ul>
 
@@ -83,5 +83,11 @@ button{
 .active{
   color: $mainOrangeColor;
   border-bottom: 2px solid $mainOrangeColor;
+}
+
+.ms_main-nav{
+  a:hover{
+    color: $mainOrangeColor;
+  }
 }
 </style>

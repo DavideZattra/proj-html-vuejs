@@ -18,8 +18,8 @@ name : 'Subscribe',
 @import '../style/variables.scss';
 
 #ms_subscribe{
-    padding: 25px 0;
-    background-color: $mainWhiteColor;
+    padding: 75px 0;
+    background-color: white;
     background-image: url('../assets/img/subscribe-sec-bg.png');
     background-position: center;
     background-size: cover;

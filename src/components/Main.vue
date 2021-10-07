@@ -4,7 +4,7 @@
     <Popular />
     <Collection />
     <FarmToTable />
-    <!-- <Subscribe /> -->
+    <Subscribe />
   </main>
 </template>
 
@@ -13,7 +13,7 @@ import Jumbotron from './MainJumbotron.vue';
 import Popular from './MainPopular.vue';
 import Collection from './MainCollection.vue';
 import FarmToTable from './MainFarmToTable.vue';
-// import Subscribe from './MainSubscribe.vue';
+import Subscribe from './MainSubscribe.vue';
 
 export default {
 name : 'Main',
@@ -22,7 +22,7 @@ components :{
   Popular,
   Collection,
   FarmToTable,
-  // Subscribe
+  Subscribe
   }
 }
 </script>

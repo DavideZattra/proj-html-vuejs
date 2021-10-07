@@ -18,19 +18,37 @@
             </div>
 
             <div class="col-4 ms_journal-cards">
-                <img class="img-fluid" src="../assets/img/single-post-img3.jpg" alt="">
+                <div class="journal-img">
+                  <img class="img-fluid" src="../assets/img/single-post-img3.jpg" alt="">
+                  <div class="text-hover">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                    <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
+                  </div>
+                </div>
                 <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
                 <p>By Admin | March 25th, 2019</p>
             </div>
 
             <div class="col-4 ms_journal-cards">
-                <img class="img-fluid" src="../assets/img/fi-roundup.jpg" alt="">
+                <div class="journal-img">
+                  <img class="img-fluid" src="../assets/img/fi-roundup.jpg" alt="">
+                  <div class="text-hover">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                    <h5>Roundup: My New Favourite Recipes for Healthy Living</h5>
+                  </div>
+                </div>
                 <h5>Roundup: My New Favourite Recipes for Healthy Living</h5>
                 <p>By Admin | March 25th, 2019</p>
             </div>
 
             <div class="col-4 ms_journal-cards">
-                <img class="img-fluid" src="../assets/img/fi-toasts.jpg" alt="">
+                <div class="journal-img">
+                  <img class="img-fluid" src="../assets/img/fi-toasts.jpg" alt="">
+                  <div class="text-hover">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                    <h5>Why These Toast with Tea are My New Favourite</h5>
+                  </div>
+                </div>
                 <h5>Why These Toast with Tea are My New Favourite</h5>
                 <p>By Admin | March 25th, 2019</p>
             </div>
@@ -116,19 +134,46 @@ components : {
         }
     }
 
-    .ms_journal-cards{
-        
-        
-        text-align: center;
-        
-        h5{
-            padding: 10px 0;
-            font-size: 1rem;
+    .ms_journal-cards{        
+      text-align: center;
+      .journal-img{
+        position: relative;
+
+        .text-hover{
+          position: absolute;
+          top: 0%;
+          left: 0%;
+          height: 100%;
+          display: none;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 25px;
+          color: white;
+          background-image: linear-gradient(to top, $mainOrangeColor, #fc742594);
+          a{
+            width: 45px;
+            line-height: 45px;
+
+            display: inline-block;
+            border-radius: 50%;
+            background-color: white;
+          }
         }
-        p{
-            font-size: 0.7rem;
-            font-weight: 300;
-        }
+        
+      }
+      
+      &:hover .text-hover{
+        display: flex;
+      }
+      h5{
+          padding: 10px 0;
+          font-size: 1rem;
+      }
+      p{
+          font-size: 0.7rem;
+          font-weight: 300;
+      }
     }
     
     

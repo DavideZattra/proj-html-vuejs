@@ -99,6 +99,7 @@ name : 'CulinaryCollection',
         height: 100%;
         background-color: white;
         text-align: center;
+        cursor: pointer;
         
     
         img{
@@ -108,6 +109,13 @@ name : 'CulinaryCollection',
     
         p{
             text-transform: uppercase;
+            margin: 0 5px;
+            line-height: 3em;
+        }
+
+        &:hover p{
+            color: white;
+            background-color: $mainOrangeColor;
         }
     }
 }

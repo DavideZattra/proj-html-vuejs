@@ -28,7 +28,7 @@ export default {
         },
         {
           name : 'recipes',
-          url : '#',
+          url : '#ms_popular-recipes',
           selected : false,
         },
         {
@@ -38,7 +38,7 @@ export default {
         },
         {
           name : 'blog',
-          url : '#',
+          url : '#ms_farmtotable',
           selected : false,
         },
         {
@@ -48,7 +48,7 @@ export default {
         },
         {
           name : 'contact',
-          url : '#',
+          url : '#ms_upper-footer',
           selected : false,
         },
       ]
