@@ -1,28 +1,28 @@
 <template>
   <main>
     <Jumbotron />
-    <Popular />
-    <Collection />
-    <FarmToTable />
-    <Subscribe />
+    <!-- <Popular /> -->
+    <!-- <Collection /> -->
+    <!-- <FarmToTable /> -->
+    <!-- <Subscribe /> -->
   </main>
 </template>
 
 <script>
 import Jumbotron from './MainJumbotron.vue';
-import Popular from './MainPopular.vue';
-import Collection from './MainCollection.vue';
-import FarmToTable from './MainFarmToTable.vue';
-import Subscribe from './MainSubscribe.vue';
+// import Popular from './MainPopular.vue';
+// import Collection from './MainCollection.vue';
+// import FarmToTable from './MainFarmToTable.vue';
+// import Subscribe from './MainSubscribe.vue';
 
 export default {
 name : 'Main',
 components :{
   Jumbotron,
-  Popular,
-  Collection,
-  FarmToTable,
-  Subscribe
+  // Popular,
+  // Collection,
+  // FarmToTable,
+  // Subscribe
   }
 }
 </script>

@@ -32,12 +32,13 @@ name: 'TodayPicks'
         left: 50%;
         transform: translateX(-50%);
 
-        border-radius: 5px;
-        padding: 2.5px 7.5px;
+        border-radius: 10px;
+        padding: 0 25px;
         background-color: $mainOrangeColor;
 
         h5{
-        
+            font-weight: 700;
+            font-size: 0.8em;
             line-height: 40px;
         }
     }
