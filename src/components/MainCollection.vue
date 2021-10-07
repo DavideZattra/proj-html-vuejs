@@ -63,8 +63,8 @@ name : 'CulinaryCollection',
     flex-basis: 17.5%;
     background-color: $mainWhiteColor;
     text-align: center;
-    padding: 10px 50px;
-    margin: 25px;
+    // padding: 10px 50px;
+    // margin: 25px;
 
     img{
         height: 125px;

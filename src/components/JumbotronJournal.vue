@@ -40,7 +40,7 @@ name : 'FoodieJournal'
 #ms_foodie-journal{
     position: absolute;
     left: 50%;
-    bottom: -50%;
+    bottom: -60%;
     transform: translateX(-50%);
 
     .row{

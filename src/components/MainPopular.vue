@@ -6,7 +6,7 @@
               <h5>Popular recipes</h5>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto magni soluta maiores.</p>
           </div>
-          <div class="col-6">
+          <div class="col-6 ps-0">
               <div class="ms_main-card">
                 <img class="img-fluid" src="../assets/img/Yogurt-Nan.jpg" alt="Yogurt Nan">
                 <div class="ms_main-card-txt ">
@@ -17,31 +17,31 @@
                 </div>
               </div>
           </div>
-          <div class="col-6 d-flex flex-wrap justify-content-between ">
+          <div class="col-6 pe-0 d-flex flex-wrap justify-content-between ">
 
-              <div class="ms_img-container">
-                  <img class="img-fluid" src="../assets/img/Mixed-fruits.jpg" alt="">
+              <div class="ms_img-container pe-2">
+                  <img class="" src="../assets/img/Mixed-fruits.jpg" alt="">
               </div>
-              <div class="ms_img-container">
-                  <img class="img-fluid" src="../assets/img/r-rachel-park-366508-unsplash-min.jpg" alt="">
+              <div class="ms_img-container ps-2">
+                  <img class="" src="../assets/img/r-rachel-park-366508-unsplash-min.jpg" alt="">
               </div>
-              <div class="ms_img-container">
-                  <img class="img-fluid" src="../assets/img/r-michelle-tsang-500721-unsplash-min.jpg" alt="">
+              <div class="ms_img-container pe-2">
+                  <img class="" src="../assets/img/r-michelle-tsang-500721-unsplash-min.jpg" alt="">
               </div>
-              <div class="ms_img-container">
-                  <img class="img-fluid" src="../assets/img/quick-summer-drink-460x295.jpg" alt="">
+              <div class="ms_img-container ps-2">
+                  <img class="" src="../assets/img/quick-summer-drink-460x295.jpg" alt="">
               </div>
-              <div class="ms_img-container">
-                  <img class="img-fluid" src="../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="">
+              <div class="ms_img-container pe-2">
+                  <img class="" src="../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="">
               </div>
-              <div class="ms_img-container">
-                  <img class="img-fluid" src="../assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+              <div class="ms_img-container ps-2">
+                  <img class="" src="../assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
               </div>
-              <div class="ms_img-container">
-                  <img class="img-fluid" src="../assets/img/fi2x-6-460x295.jpg" alt="">
+              <div class="ms_img-container pe-2">
+                  <img class="" src="../assets/img/fi2x-6-460x295.jpg" alt="">
               </div>
-              <div class="ms_img-container">
-                  <img class="img-fluid" src="../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="">
+              <div class="ms_img-container ps-2">
+                  <img class="" src="../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="">
               </div>
               
           </div>
@@ -60,9 +60,8 @@ name : 'PopularRecipes'
 @import '../style/variables.scss';
 
 .ms_main-card{
-    
+    height: 100%;
     background-color: $mainWhiteColor;
-    padding: 0;
 
     .ms_main-card-txt{
         padding: 1rem;
@@ -79,5 +78,10 @@ name : 'PopularRecipes'
 .ms_img-container{
     
     flex-basis: 50%;
+    margin-bottom: 16px;
+
+    img{
+        width: 100%;
+    }
 }
 </style>

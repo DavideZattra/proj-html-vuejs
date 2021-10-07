@@ -25,7 +25,7 @@ components : {
 #ms_jumbotron{
     position: relative;
     height: 475px;
-    margin-bottom: 275px;
+    margin-bottom: 375px;
     background-image: url('../assets/img/single-post-img3.jpg');
     background-position: center;
     background-repeat: no-repeat;
