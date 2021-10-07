@@ -316,10 +316,11 @@ name: 'farm',
       
       .text{
         padding: 25px;
+
       }
   
       h5{
-        font-size: 1rem;
+        font-size: 0.85rem;
       }
 
       p{
@@ -355,7 +356,7 @@ name: 'farm',
 
           h5{
             margin-top: 7.5px;
-            font-size: 1rem;
+            font-size: rem;
           }
         }
 
@@ -371,6 +372,11 @@ name: 'farm',
 
       color: black;
       background-color: $mainDarkGrayColor;
+
+      &:hover{
+        color: white;
+        background-color: $mainOrangeColor;
+      }
     }
   }
   .ms_right-col{
