@@ -61,7 +61,7 @@ name : 'PopularRecipes'
 
 .ms_main-card{
     height: 100%;
-    background-color: $mainWhiteColor;
+    background-color: white;
 
     .ms_main-card-txt{
         padding: 1rem;
