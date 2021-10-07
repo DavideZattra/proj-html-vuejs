@@ -107,16 +107,18 @@
           </div>
           <div class="col-12 ms_tweet-box">
             <div class="row">
-              <div class="col-12 d-flex">
+              <div class="col-12 d-flex text-start">
                 <h5>Tweets</h5>
-                <p class="flex-grow-1">By <a href="#">@Theme_Fusion</a></p>
+                <p class="flex-grow-1 ">By <a href="#">@Theme_Fusion</a></p>
                 <img src="../assets/img/image.svg" alt="">
               </div>
-              <div class="col-2">
+              <div class="col-3">
                 <img src="../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
               </div>
               <div class="col-8">
-
+                <h5>ThemeFusion</h5>
+                <p>@Theme_Fusion</p>
+                <p></p>
               </div>
             </div>
           </div>
