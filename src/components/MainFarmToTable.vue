@@ -55,8 +55,72 @@
           </div>
         </div>
       </div>
-      <aside class="col-2 text-end">
-        
+      <aside class="col-3 text-end">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid" src="../assets/img/ad-bg.jpg" alt="">
+          </div>
+          <div class="col-12">
+            <img class="img-fluid" src="../assets/img/singapore-featured-image.jpg" alt="">
+            <button class="btn text-uppercase"><i class="fas fa-globe-americas"></i> view all city guides</button>
+          </div>
+          <hr>
+          <div class="col-12">
+            <label for=""><i class="fas fa-search"></i></label>
+            <input type="text" placeholder="Search...">
+          </div>
+          <div class="col-12">
+            <h5>Follow Us</h5>
+            <p>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </p>
+          </div>
+          <div class="col12 d-flex">
+
+            <button class="btn flex-grow-1">Popular</button>
+            <button class="btn flex-grow-1">Recent</button>
+
+          </div>
+          <div class="col-12 d-flex ms_popular-recent">
+            <img src="../assets/img/single-post-img3.jpg" alt="">
+            <div class="ms_text">
+              <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
+              <pre>March 25th, 2019</pre>
+            </div>
+          </div>
+          <div class="col-12 d-flex ms_popular-recent">
+            <img src="../assets/img/singapore-featured-image.jpg" alt="">
+            <div class="ms_text">
+              <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
+              <pre>February 27th, 2019</pre>
+            </div>
+          </div>
+          <div class="col-12 d-flex ms_popular-recent">
+            <img src="../assets/img/slide1-bg-150x150.jpg" alt="">
+            <div class="ms_text">
+              <h5>6 Nutritional Tips to Help Burn Body Fat</h5>
+              <pre>February 27th, 2019</pre>
+            </div>
+          </div>
+          <div class="col-12 ms_tweet-box">
+            <div class="row">
+              <div class="col-12 d-flex">
+                <h5>Tweets</h5>
+                <p class="flex-grow-1">By <a href="#">@Theme_Fusion</a></p>
+                <img src="../assets/img/image.svg" alt="">
+              </div>
+              <div class="col-2">
+                <img src="../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
+              </div>
+              <div class="col-8">
+
+              </div>
+            </div>
+          </div>
+        </div>
       </aside>
     </div>
   </section>
@@ -69,6 +133,7 @@ name: 'farm',
 </script>
 
 <style lang='scss' scoped>
+@import '../style/general.scss';
 @import '../style/variables.scss';
 
 button{
@@ -90,4 +155,18 @@ button{
   background-color: $mainWhiteColor;
 }
 
+.ms_popular-recent{
+  padding-top: 10px;
+  img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .ms_text{
+    text-align: start;
+  }
+}
+
 </style>
+
+'<i class="fas fa-search"></i>'
