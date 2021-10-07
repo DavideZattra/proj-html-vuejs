@@ -6,16 +6,18 @@
               <h5>Popular recipes</h5>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto magni soluta maiores.</p>
           </div>
-          <div class="ms_main-card col-5">
-              <img class="img-fluid" src="../assets/img/Yogurt-Nan.jpg" alt="Yogurt Nan">
-              <div class="ms_main-card-txt ">
+          <div class="col-6">
+              <div class="ms_main-card">
+                <img class="img-fluid" src="../assets/img/Yogurt-Nan.jpg" alt="Yogurt Nan">
+                <div class="ms_main-card-txt ">
                     <h5>Lunch Facourite with Salad, Naan And Beans</h5>
                     <pre>Bakery, Featured, Healty, Latest Recipes, Staff Picks</pre>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas possimus velit tempora rerum maiores. Enim dicta corporis placeat? Eveniet in ullam sapiente explicabo minus, ratione excepturi ut eos impedit quas vitae itaque maxime tempore quisquam animi pariatur, esse harum quia quaerat maiores ea sed dolorum. Illum nobis esse laborum animi.</p>
                     <button class="btn">Learn More</button>
+                </div>
               </div>
           </div>
-          <div class="col-5 d-flex flex-wrap justify-content-between ">
+          <div class="col-6 d-flex flex-wrap justify-content-between ">
 
               <div class="ms_img-container">
                   <img class="img-fluid" src="../assets/img/Mixed-fruits.jpg" alt="">

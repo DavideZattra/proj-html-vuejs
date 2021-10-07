@@ -43,7 +43,7 @@ name : 'FoodieJournal'
     bottom: -50%;
     transform: translateX(-50%);
 
-    width: 60%;
+    
     background-color: white;
 
 }

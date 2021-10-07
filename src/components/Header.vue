@@ -3,7 +3,25 @@
     <section class="container">
       <div class="row">
         
-        <Topnavbar />
+        <div class="col-12 d-flex justify-content-between align-items-center">
+    
+          <ul class="d-flex p-0 ">
+
+            <li class="pt-2 ps-2 pe-2"><a href="#">Download App</a></li>
+            <li class="pt-2 ps-2 pe-2"><a href="#">Advertise with us</a></li>
+
+          </ul>
+
+          <ul class="d-flex p-0">
+
+            <li class="pt-2 ps-2 pe-2"><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li class="pt-2 ps-2 pe-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="pt-2 ps-2 pe-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="pt-2 ps-2 pe-2"><a href="#"><i class="fab fa-youtube"></i></a></li>
+
+          </ul>
+
+        </div>
         
         <div class="col-12 text-center">
           <a href="#"><img src="../assets/img/avada-food-logo.png" alt="Main Avada Logo"></a>
@@ -16,8 +34,9 @@
             <ul class="d-flex justify-content-center">
 
               <li v-for="(element, index) in sectionList" :key="index">
-                <MainNavbarItem  :element='element'/>
-                               
+                <a class="text-capitalize pb-3" :class="{active : element.selected}" :href="element.url">
+                  {{ element.name }}
+                </a>                                
               </li>
 
             </ul>
@@ -32,8 +51,6 @@
 </template>
 
 <script>
-import Topnavbar from './HeaderTopNavbar.vue';
-import MainNavbarItem from './HeaderMainNavbar.vue';
 
 export default {
   name: 'Header',
@@ -41,8 +58,6 @@ export default {
   props : ['sectionList'],
 
   components : {
-    Topnavbar,
-    MainNavbarItem,
   },
 
   
@@ -55,4 +70,8 @@ export default {
 <style scoped lang="scss">
 @import '../style/variables.scss';
 
+.active{
+  color: $mainOrangeColor;
+  border-bottom: 2px solid $mainOrangeColor;
+}
 </style>
