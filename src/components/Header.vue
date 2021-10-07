@@ -7,7 +7,7 @@
     
           <ul class="d-flex p-0 ">
 
-            <li class="pt-2 ps-2 pe-2"><a href="#">Download App</a></li>
+            <li class="pt-2 ps-2 pe-2"><a href="#">Download App</a> <button class="btn">iOS</button></li>
             <li class="pt-2 ps-2 pe-2"><a href="#">Advertise with us</a></li>
 
           </ul>
@@ -23,7 +23,7 @@
 
         </div>
         
-        <div class="col-12 text-center">
+        <div class="col-12 pt-2 pb-4 text-center">
           <a href="#"><img src="../assets/img/avada-food-logo.png" alt="Main Avada Logo"></a>
         </div>
 
@@ -31,13 +31,15 @@
 
           <nav>
 
-            <ul class="d-flex justify-content-center">
+            <ul class="p-0 d-flex justify-content-between">
 
               <li v-for="(element, index) in sectionList" :key="index">
                 <a class="text-capitalize pb-3" :class="{active : element.selected}" :href="element.url">
                   {{ element.name }}
                 </a>                                
               </li>
+
+              <li><a href="#"></a><i class="fas fa-search"></i></li>
 
             </ul>
 
@@ -69,7 +71,15 @@ export default {
 
 <style scoped lang="scss">
 @import '../style/variables.scss';
-
+button{
+  padding: 0 5px;
+  line-height: 20px;
+  font-size: 0.7em;
+  color: white;
+  background-color: $mainOrangeColor;
+  border-radius: 5px;
+  height: 20px;
+}
 .active{
   color: $mainOrangeColor;
   border-bottom: 2px solid $mainOrangeColor;
