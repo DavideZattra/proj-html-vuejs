@@ -118,7 +118,11 @@
               <div class="col-8">
                 <h5>ThemeFusion</h5>
                 <p>@Theme_Fusion</p>
-                <p></p>
+                <p>Do you need sublime WordPress hosting for your next website? Take advantage of exclusive partner offers that we have secured yust for you, &and; launch your site in seconds with <a href="#">avada</a> on WP Engine hosting &and; get 30% Off this Black Friday <a href="#">bit.ly/3kjLLE2</a> <a href="#">#BlackFriday2020</a></p>
+                <img class="img-fluid" src="../assets/img/En2TRxLW4AEiWUN.jpeg" alt="">
+                <img src="../assets/img/image (2).svg" alt="">
+                <img src="../assets/img/image (3).svg" alt="">
+                <p class="d-inline-block">21h</p>
               </div>
             </div>
           </div>
@@ -135,7 +139,7 @@ name: 'farm',
 </script>
 
 <style lang='scss' scoped>
-@import '../style/general.scss';
+// @import '../style/general.scss';
 @import '../style/variables.scss';
 
 button{
