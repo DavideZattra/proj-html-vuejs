@@ -35,7 +35,7 @@
             <h5>{{element.title}}</h5>
             <p>By {{element.author}} | {{element.date}}</p>
         </div> -->
-        <div class="col-4 ms_journal-cards">
+        <div class="col-12 col-sm-4 ms_journal-cards">
             <div class="journal-img">
               <img class="img-fluid" src="../assets/img/single-post-img3.jpg" alt="">
               <div class="text-hover">
@@ -47,7 +47,7 @@
             <p>By Admin | March 25th, 2019</p>
         </div>
 
-        <div class="col-4 ms_journal-cards">
+        <div class="col-12 col-sm-4 ms_journal-cards">
             <div class="journal-img">
               <img class="img-fluid" src="../assets/img/fi-roundup.jpg" alt="">
               <div class="text-hover">
@@ -59,7 +59,7 @@
             <p>By Admin | March 25th, 2019</p>
         </div>
 
-        <div class="col-4 ms_journal-cards">
+        <div class="col-12 col-sm-4 ms_journal-cards">
             <div class="journal-img">
               <img class="img-fluid" src="../assets/img/fi-toasts.jpg" alt="">
               <div class="text-hover">
@@ -86,7 +86,27 @@ props : ['foodieJournal'],
 data : function(){
   return{
     counter : 0,
-    initialUrl: '../assets/img/'
+    initialUrl: '../assets/img/',
+    // foodieJournal : [
+    //   {
+    //     title: 'Food Corner: Top Japanese Restaurants for Sushi',
+    //     img : 'single-post-img3.jpg',
+    //     author : 'Admin',
+    //     date: 'March 25th, 2019',
+    //   },
+    //   {
+    //     title: 'Roundup: My New Favourite Recipes for Healthy Living',
+    //     img : 'fi-roundup.jpg',
+    //     author : 'Admin',
+    //     date: 'March 25th, 2019',
+    //   },
+    //   {
+    //     title: 'Why These Toast with Tea are My New Favourite',
+    //     img : 'fi-toasts.jpg',
+    //     author : 'Admin',
+    //     date: 'March 25th, 2019',
+    //   },
+    // ]
   }
 }
 }

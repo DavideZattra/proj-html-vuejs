@@ -3,27 +3,27 @@
 
     <div class="row justify-content-center">
         
-        <div class="col-8 text-center">
+        <div class="col-12 col-md-8 text-center">
 
             <h5>Culinary collection</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium itaque repellat dignissimos neque soluta.</p>
         </div>
     </div>
     <div class="row justify-content-center P-0">
-        <div class="col-3">
+        <div class="col-10 col-sm-6 col-md-3 mb-4">
             <div class="ms_card">
                 <img src="../assets/img/drinks-recipes.png" alt="">
                 <p>drinks</p>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-10 col-sm-6 col-md-3 mb-4">
 
             <div class="ms_card">
                 <img src="../assets/img/soups-recipes.png" alt="">
                 <p>soups</p>
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-10 col-sm-6 col-md-3 mb-4">
 
             <div class="ms_card">
                 <img src="../assets/img/baking-recipes.png" alt="">
@@ -31,7 +31,7 @@
             </div>
 
         </div>
-        <div class="col-3">
+        <div class="col-10 col-sm-6 col-md-3 mb-4">
 
             <div class="ms_card">
                 <img src="../assets/img/dinner-recipes.png" alt="">
@@ -39,7 +39,7 @@
             </div>
 
         </div>
-        <div class="col-3">
+        <div class="col-10 col-sm-6 col-md-3 mb-4">
 
             <div class="ms_card">
                 <img src="../assets/img/healthy-recipes.png" alt="">
@@ -47,7 +47,7 @@
             </div>
 
         </div>
-        <div class="col-3">
+        <div class="col-10 col-sm-6 col-md-3 mb-4">
 
         <div class="ms_card">
             <img src="../assets/img/staff-picks.png" alt="">
@@ -55,14 +55,14 @@
         </div>
 
         </div>
-        <div class="col-3">
+        <div class="col-10 col-sm-6 col-md-3 mb-4">
             <div class="ms_card">
                 <img src="../assets/img/premium-recipes.png" alt="">
                 <p>Appetisers</p>
             </div>
         </div>
 
-        <div class="col-3">
+        <div class="col-10 col-sm-6 col-md-3 mb-4">
 
             <div class="ms_card">
                 <img src="../assets/img/quick-easy-recipes.png" alt="">
@@ -89,10 +89,7 @@ name : 'CulinaryCollection',
     
     padding-top: 125px;
 
-    .col-3{
-        
-        margin-bottom: 32px;
-    }
+    
     
     .ms_card{
         

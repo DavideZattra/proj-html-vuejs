@@ -6,7 +6,7 @@
               <h5>Popular recipes</h5>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto magni soluta maiores.</p>
           </div>
-          <div class="col-6 ps-0">
+          <div class="col-12 col-sm-6 ps-0">
               <div class="ms_main-card">
                 <div class="ms_main-img">
                     <img class="img-fluid" src="../assets/img/Yogurt-Nan.jpg" alt="Yogurt Nan">
@@ -23,7 +23,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-6 pe-0 d-flex flex-wrap justify-content-between ">
+          <div class="col-12 col-sm-6 pe-0 d-flex flex-wrap justify-content-between ">
 
               <div class="ms_img-container pe-2">
                   <img class="" src="../assets/img/Mixed-fruits.jpg" alt="">

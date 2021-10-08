@@ -3,20 +3,20 @@
 
     <div class="row justify-content-center p-0">
 
-      <div class="col-8">
+      <div class="col-12 col-md-8">
 
         <h5 class="text-uppercase">Farm to table</h5>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, saepe. Tempore officiis cumque velit accusamus.</p>
 
       </div>
 
-      <div class="col-4 text-end">
+      <div class="col-12 col-md-4 text-center text-md-end mb-2">
 
         <button class="btn">Read our blog <i class="fas fa-book-reader"></i></button>
 
       </div>
 
-      <div class="col-8 ms_left-col">
+      <div class="col-12 col-lg-8 ms_left-col">
         <div class="row ">
           <div class="col-12 ">
             <div class="ms_main-card">
@@ -154,7 +154,7 @@
           </div>
         </div>
       </div>
-      <aside class="col-4 ms_right-col">
+      <aside class="col-12 col-lg-4 ms_right-col mb-5">
         <div class="row">
           <div class="col-12 mb-3">
             <img class="img-fluid" src="../assets/img/ad-bg.jpg" alt="">
@@ -215,12 +215,12 @@
                   <div class="col-12 d-flex text-start">
                 <h5>Tweets</h5>
                 <p class="flex-grow-1 ">By <a href="#">@Theme_Fusion</a></p>
-                <img src="../assets/img/image.svg" alt="">
+                <img  src="../assets/img/image.svg" alt="">
               </div>
-              <div class="col-2">
-                <img src="../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
+              <div class="col-2 p-0">
+                <img class="img-fluid" src="../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
               </div>
-              <div class="col-10">
+              <div class="col-10 ">
                 <h5>ThemeFusion</h5>
                 <p>@Theme_Fusion</p>
                 <p>Do you need sublime WordPress hosting for your next website? Take advantage of exclusive partner offers that we have secured yust for you, &amp; launch your site in seconds with <a href="#">#avada</a> on WP Engine hosting &amp; get 30% Off this Black Friday <a href="#">bit.ly/3kjLLE2</a> <a href="#">#BlackFriday2020</a></p>
@@ -491,6 +491,9 @@ name: 'farm',
       background-color: white;
       padding: 25px;
 
+      .img-fluid{
+        width: 100%;
+      }
 
       a{
         color: rgb(65, 146, 253);
