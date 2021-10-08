@@ -115,10 +115,33 @@ data : function(){
 <style lang='scss' scoped>
 @import '../style/variables.scss';
 
+@media screen and (max-width: 575px) {
+  #ms_foodie-journal{
+    position: static;
+    
+    
+  }
+
+  #ms_jumbotron{
+    margin-bottom: 75px;
+  }
+}
+@media screen and (min-width: 575.5px){
+  #ms_foodie-journal{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+    
+  }
+  #ms_jumbotron{
+  
+  margin-bottom: 375px;
+  }
+}
 #ms_jumbotron{
   position: relative;
   min-height: 500px;
-  margin-bottom: 375px;
   
   .ms_img-container{
     position: relative;
@@ -168,10 +191,7 @@ data : function(){
   }
 
   #ms_foodie-journal{
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translateX(-50%);
+    
 
     .row{
         padding: 0 12px;
@@ -242,4 +262,6 @@ data : function(){
 
   }
 }
+
+
 </style>

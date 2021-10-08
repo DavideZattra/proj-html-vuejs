@@ -2,8 +2,8 @@
   <footer>
     <!-- section with all info about avada social links and store link -->
     <section id="ms_upper-footer" class="container">
-      <div class="row justify-content-center pt-5 pb-5">
-        <div id="ms_social" class="col-12 col-sm-8 col-md-3 border-end">
+      <div class="row justify-content-center pt-5 pb-5 text-center text-md-start">
+        <div id="ms_social" class="col-12  col-md-3 border-end">
           <a href="#"><img  src="../assets/img/avada-food-logo-mob.png" alt="Main Avada Logo"></a>
           <ul class="d-flex p-0">
 
@@ -14,14 +14,14 @@
 
           </ul>
         </div>
-        <div class="col-12 col-sm-8 col-md-3 border-end">
+        <div class="col-12  col-md-3 border-end">
           <ul>
             <li class="text-capitalize pb-2" v-for="(element, index) in sectionList" :key="index">
               <a :href="element.url"> {{ element.name }}</a>
             </li>
           </ul>
         </div>
-        <div id="ms_contacts" class="col-12 col-sm-8 col-md-3 border-end">
+        <div id="ms_contacts" class="col-12  col-md-3 border-end">
           <h5>contact</h5>
           <ul class="p-0">
             <li class="d-flex">
@@ -39,7 +39,7 @@
             </li>
           </ul>
         </div>
-        <div id="ms_appStore" class="col-12 col-sm-8 col-md-3 ">
+        <div id="ms_appStore" class="col-12  col-md-3 ">
           <h5>get our app!</h5>
           <img class="img-fluid" src="../assets/img/download-android.png" alt="">
           <img class="img-fluid" src="../assets/img/download-app-store.png" alt="">
