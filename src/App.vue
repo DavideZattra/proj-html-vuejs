@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header :sectionList="sectionList" />
-    <Main :foodieJournal="foodieJournal" />
+    <Main :blogArticles="blogArticles" />
     <Footer :sectionList="sectionList" />
   </div>
 </template>
@@ -52,7 +52,7 @@ export default {
           selected : false,
         },
       ],
-      foodieJournal : [
+      blogArticles : [
         {
           title: 'Food Corner: Top Japanese Restaurants for Sushi',
           img : 'single-post-img3.jpg',
@@ -70,6 +70,30 @@ export default {
           img : 'fi-toasts.jpg',
           author : 'Admin',
           date: 'March 25th, 2019',
+        },
+        {
+          title : 'Exploring Street Food in Bangkok',
+          img : 'fi-street-food.jpg',
+          author : 'Admin',
+          date : 'March 25th, 2019',
+        },
+        {
+          title : 'Organic Choices For Healthier Living',
+          img : 'fi-organic-breakfast.jpg',
+          author : 'Admin',
+          date : 'March 25th, 2019',
+        },
+        {
+          title : 'Meal Prep: Korean Bibimbap with Kimchi',
+          img : 'fi-korean-food.jpg',
+          author : 'Admin',
+          date : 'March 25th, 2019',
+        },
+        {
+          title : '5 Waterside Restaurants in Istanbul for Special Events',
+          img : 'fi-water-side-rest.jpg',
+          author : 'Admin',
+          date : 'March 25th, 2019',
         },
       ]
     }
