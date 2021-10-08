@@ -2,44 +2,70 @@
   <footer>
     <!-- section with all info about avada social links and store link -->
     <section id="ms_upper-footer" class="container">
-      <div class="row justify-content-center pt-5 pb-5 text-center text-md-start">
-        <div id="ms_social" class="col-12  col-md-3 border-end">
-          <a href="#"><img  src="../assets/img/avada-food-logo-mob.png" alt="Main Avada Logo"></a>
-          <ul class="d-flex p-0">
 
+      <div class="row justify-content-center pt-5 pb-5 text-center text-md-start">
+
+        <div id="ms_social" class="col-12  col-md-3 border-end">
+
+          <a href="#"><img  src="../assets/img/avada-food-logo-mob.png" alt="Main Avada Logo"></a>
+
+          <ul class="d-flex p-0">
+            <!-- link to the social media pages -->
             <li class="pt-2 ps-2 pe-2"><a href="#"></a><i class="fab fa-facebook"></i></li>
             <li class="pt-2 ps-2 pe-2"><a href="#"></a><i class="fab fa-instagram"></i></li>
             <li class="pt-2 ps-2 pe-2"><a href="#"></a><i class="fab fa-twitter"></i></li>
             <li class="pt-2 ps-2 pe-2"><a href="#"></a><i class="fab fa-youtube"></i></li>
 
           </ul>
+
         </div>
+
         <div class="col-12  col-md-3 border-end">
+          <!-- all the sections listed in the header -->
           <ul>
+
             <li class="text-capitalize pb-2" v-for="(element, index) in sectionList" :key="index">
+
               <a :href="element.url"> {{ element.name }}</a>
+
             </li>
+
           </ul>
+
         </div>
+
         <div id="ms_contacts" class="col-12  col-md-3 border-end">
+          <!--  all the contact of the firm -->
           <h5>contact</h5>
+
           <ul class="p-0">
+
             <li class="d-flex">
+
               <p><i class="fas fa-map-marker-alt"></i></p>
               <p>775 New York Ave, Brooklyn Kings, New York 11203</p>
 
             </li>
+
             <li class="d-flex">
+
               <p><i class="fas fa-phone"></i></p>
               <p>+ 0100-505-0000</p>
+
             </li>
             <li class="d-flex">
+
               <p><i class="fas fa-envelope"></i></p>
               <p>info@your-domain.com</p>
+
             </li>
+
           </ul>
+
         </div>
+
         <div id="ms_appStore" class="col-12  col-md-3 ">
+          <!-- APPSTORE links to download the app -->
           <h5>get our app!</h5>
           <img class="img-fluid" src="../assets/img/download-android.png" alt="">
           <img class="img-fluid" src="../assets/img/download-app-store.png" alt="">
@@ -57,7 +83,9 @@
       <p>&copy; Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
       
     </section>
+
   </footer>
+
 </template>
 
 <script>
