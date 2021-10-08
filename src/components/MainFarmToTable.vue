@@ -270,7 +270,12 @@ name: 'farm',
 
       .ms_main-img{
         position: relative;
-        text-align: center;       
+        text-align: center;
+        overflow: hidden;
+        
+          img{
+            transition: transform .5s ease;
+          }
 
         .text-hover{
           position: absolute;
@@ -308,6 +313,10 @@ name: 'farm',
       .text{
         padding: 25px;
       }
+
+      &:hover img{
+        transform: scale(1.1);
+    }
     }
     
     .ms_card{
@@ -329,7 +338,12 @@ name: 'farm',
 
       .ms_card-img{
         position: relative;
-        text-align: center;       
+        text-align: center;
+        overflow: hidden;
+        
+        img{
+          transition: transform .5s ease;
+        }
 
         .text-hover{
           position: absolute;
@@ -363,6 +377,10 @@ name: 'farm',
         &:hover .text-hover{
           display: flex;
         }
+      }
+
+      &:hover img{
+        transform: scale(1.1);
       }
     }
 
