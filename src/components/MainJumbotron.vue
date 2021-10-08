@@ -5,15 +5,15 @@
       <!-- <img class="jumbo-bg-img" :src="initialUrl + foodieJournal[counter].img" alt=""> -->
       <img class="jumbo-bg-img" src="../assets/img/single-post-img3.jpg" alt="">
 
+      <div id="ms_today-picks" class="text-center">
+          <div class="ms_sticker">
+              <h5 class="text-white text-uppercase m-0">Today's Pick</h5>
+          </div>
+          <h1>Food Corner: Top Japanese Restaurants for Sushi</h1>
+          <h5>March 25, 2019</h5>
+      </div>
     </div>
 
-    <div id="ms_today-picks" class="text-center">
-        <div class="ms_sticker">
-            <h5 class="text-white text-uppercase m-0">Today's Pick</h5>
-        </div>
-        <h1>Food Corner: Top Japanese Restaurants for Sushi</h1>
-        <h5>March 25, 2019</h5>
-    </div>
 
     <div id="ms_foodie-journal" class="container">
 
@@ -117,11 +117,12 @@ data : function(){
 
 #ms_jumbotron{
   position: relative;
-  height: 500px;
+  min-height: 500px;
   margin-bottom: 375px;
   
   .ms_img-container{
-    height: 100%;
+    position: relative;
+    height: 500px;
     overflow: hidden;
 
     .jumbo-bg-img{
@@ -133,9 +134,7 @@ data : function(){
   
       &:hover{
         transform: scale(1.05);
-        // animation-name: zoomie;
-        // animation-duration: 2s;
-        // animation-iteration-count: 1;
+        
       }
     }
   }
@@ -171,7 +170,7 @@ data : function(){
   #ms_foodie-journal{
     position: absolute;
     left: 50%;
-    bottom: -60%;
+    top: 90%;
     transform: translateX(-50%);
 
     .row{
