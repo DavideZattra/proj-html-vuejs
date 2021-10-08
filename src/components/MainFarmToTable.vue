@@ -325,6 +325,7 @@ name: 'farm',
       
       .text{
         padding: 25px;
+        min-height: 125px;
 
       }
   
