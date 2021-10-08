@@ -17,39 +17,62 @@
       </div>
 
       <div class="col-12 col-lg-8 ms_left-col">
+
         <div class="row ">
+
           <div class="col-12 ">
+
             <div class="ms_main-card">
+
               <div class="ms_main-img">
                   
                 <img class="img-fluid" src="../assets/img/single-post-img3.jpg" alt="">
+
                 <div class="text-hover">
+
                   <a href="#"><i class="fas fa-link"></i></a>
                   <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
+
                 </div>
+
               </div>
+
               <div class="text">
+
                 <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
                 <pre>By Admin | March 25th, 2019</pre>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, maiores perspiciatis nam facere nulla quod neque exercitationem beatae blanditiis officia odio dolorem aliquid inventore nemo quis, dignissimos, sunt earum hic! Et ipsam natus provident consequuntur?</p>
+
                 <p class="d-flex justify-content-between">
-                <a href="#">Read More ></a>
-                <i class="far fa-comment"> 0</i>
-              </p>
+
+                  <a href="#">Read More ></a>
+                  <i class="far fa-comment"> 0</i>
+
+                </p>
+
               </div>
 
             </div>
+
           </div>
+
           <div class="col-6  text-center">
+
             <div class="ms_card">
+
               <div class="ms_card-img">
                   
                 <img class="img-fluid" src="../assets/img/fi-roundup.jpg" alt="">
+
                 <div class="text-hover">
+
                   <a href="#"><i class="fas fa-link"></i></a>
                   <h5>Roundup: My New Favourite Recipes for Healthy Living</h5>
+
                 </div>
+
               </div>
+
               <div class="text">
 
                 <h5>Roundup: My New Favourite Recipes for Healthy Living</h5>
@@ -58,16 +81,26 @@
               </div>
 
             </div>
+
           </div>
+
           <div class="col-6  text-center">
+
             <div class="ms_card">
+
               <div class="ms_card-img">
+
                 <img class="img-fluid" src="../assets/img/fi-korean-food.jpg" alt="">
+
                 <div class="text-hover">
+
                   <a href="#"><i class="fas fa-link"></i></a>
                   <h5>Meal Prep: Korean Bibimbap with Kimchi</h5>
+
                 </div>
+
               </div>
+
               <div class="text">
 
                 <h5>Meal Prep: Korean Bibimbap with Kimchi</h5>
@@ -76,16 +109,26 @@
               </div>
 
             </div>
+
           </div>
+
           <div class="col-6  text-center">
+
             <div class="ms_card">
+
               <div class="ms_card-img">
+
                 <img class="img-fluid" src="../assets/img/fi-toasts.jpg" alt="">
+
                 <div class="text-hover">
+
                   <a href="#"><i class="fas fa-link"></i></a>
                   <h5>Why These Toast with Tea are My New Favourite</h5>
+
                 </div>
+
               </div>
+
               <div class="text">
 
                 <h5>Why These Toast with Tea are My New Favourite</h5>
@@ -94,16 +137,26 @@
               </div>
 
             </div>
+
           </div>
+
           <div class="col-6  text-center">
+
             <div class="ms_card">
+
               <div class="ms_card-img">
+
                 <img class="img-fluid" src="../assets/img/fi-street-food.jpg" alt="">
+
                 <div class="text-hover">
+
                   <a href="#"><i class="fas fa-link"></i></a>
                   <h5>Exploring Street Food in Bangkok</h5>
+
                 </div>
+
               </div>
+
               <div class="text">
 
                 <h5>Exploring Street Food in Bangkok</h5>
@@ -112,16 +165,26 @@
               </div>
 
             </div>
+
           </div>
+
           <div class="col-6  text-center">
+
             <div class="ms_card">
+
               <div class="ms_card-img">
+
                 <img class="img-fluid" src="../assets/img/fi-organic-breakfast.jpg" alt="">
+
                 <div class="text-hover">
+
                   <a href="#"><i class="fas fa-link"></i></a>
                   <h5>Organic Choices For Healthier Living</h5>
+
                 </div>
+
               </div>
+
               <div class="text">
 
                 <h5>Organic Choices For Healthier Living</h5>
@@ -130,16 +193,26 @@
               </div>
 
             </div>
+
           </div>
+
           <div class="col-6  text-center">
+
             <div class="ms_card">
+
               <div class="ms_card-img">
+
                 <img class="img-fluid" src="../assets/img/fi-water-side-rest.jpg" alt="">
+
                 <div class="text-hover">
+
                   <a href="#"><i class="fas fa-link"></i></a>
                   <h5>5 Waterside Restaurants in Istanbul for Special Events</h5>
+
                 </div>
+
               </div>
+
               <div class="text">
 
                 <h5>5 Waterside Restaurants in Istanbul for Special Events</h5>
@@ -148,102 +221,179 @@
               </div>
 
             </div>
+
           </div>
+
           <div class="col-12 text-center text-uppercase">
+
             <button class="btn ">Load More Posts</button>
+
           </div>
+
         </div>
+
       </div>
+
       <aside class="col-12 col-lg-4 ms_right-col mb-5">
+
         <div class="row">
+
           <div class="col-12 mb-3 position-relative">
+
             <img class="img-fluid" src="../assets/img/ad-bg.jpg" alt="">
+
             <div class="ms_position-absolute">
+
               <h2 class="">view our latest recipes</h2>
+              
             </div>
+
           </div>
+
           <div class="col-12 ms_city-guides">
+
             <img class="img-fluid" src="../assets/img/singapore-featured-image.jpg" alt="">
             <button class="btn text-uppercase "><i class="fas fa-globe-americas"></i> view all city guides</button>
+
             <div class="ms_shadow">
+
               <h5>City Guide: Singapore</h5>
+
             </div>
+
             <hr>
+
           </div>
+
           <div class="col-12 ms_search">
+
             <label class="ps-2 pe-2" for=""><i class="fas fa-search"></i></label>
             <input type="text" placeholder="Search...">
+
           </div>
+
           <div class="col-12 ms_social">
+
             <h5>Follow Us</h5>
+
             <p>
+
               <a href="#"><i class="fab fa-facebook"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
               <a href="#"><i class="fab fa-youtube"></i></a>
               <a href="#"><i class="fab fa-pinterest-p"></i></a>
+
             </p>
+
           </div>
+
           <div class="col12 d-flex">
 
             <button class="btn ms_gray-btn active">Popular</button>
             <button class="btn ms_gray-btn">Recent</button>
 
           </div>
+
           <div class="col-12 d-flex ms_popular-recent">
+
             <img src="../assets/img/single-post-img3.jpg" alt="">
+
             <div class="ms_text">
+
               <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
               <pre>March 25th, 2019</pre>
+
             </div>
+
           </div>
+
           <div class="col-12 d-flex ms_popular-recent">
+
             <img src="../assets/img/singapore-featured-image.jpg" alt="">
+            
             <div class="ms_text">
+
               <h5>Food Corner: Top Japanese Restaurants for Sushi</h5>
               <pre>February 27th, 2019</pre>
+
             </div>
+
           </div>
+
           <div class="col-12 d-flex ms_popular-recent">
+
             <img src="../assets/img/slide1-bg-150x150.jpg" alt="">
+
             <div class="ms_text">
+
               <h5>6 Nutritional Tips to Help Burn Body Fat</h5>
               <pre>February 27th, 2019</pre>
+
             </div>
+
           </div>
+
           <div class="col-12 ms_tweet-box">
+
             <div class="row">
+
               <div class="col-12 tweet-container">
+
                 <div class="row">
+
                   <div class="col-12 d-flex text-start">
-                <h5>Tweets</h5>
-                <p class="flex-grow-1 ">By <a href="#">@Theme_Fusion</a></p>
-                <img  src="../assets/img/image.svg" alt="">
-              </div>
-              <div class="col-2 p-0">
-                <img class="img-fluid" src="../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
-              </div>
-              <div class="col-10 ">
-                <h5>ThemeFusion</h5>
-                <p>@Theme_Fusion</p>
-                <p>Do you need sublime WordPress hosting for your next website? Take advantage of exclusive partner offers that we have secured yust for you, &amp; launch your site in seconds with <a href="#">#avada</a> on WP Engine hosting &amp; get 30% Off this Black Friday <a href="#">bit.ly/3kjLLE2</a> <a href="#">#BlackFriday2020</a></p>
-                <img class="img-fluid" src="../assets/img/En2TRxLW4AEiWUN.jpeg" alt="">
-                <div class="ms_tweet-footer">
-                  <div>
-                    <img src="../assets/img/image (2).svg" alt="">
-                    <img src="../assets/img/image (3).svg" alt="">
+
+                    <h5>Tweets</h5>
+                    <p class="flex-grow-1 ">By <a href="#">@Theme_Fusion</a></p>
+                    <img src="../assets/img/image.svg" alt="">
+
                   </div>
-                  <p class="d-inline-block">21h</p>
+
+                  <div class="col-2 p-0">
+
+                    <img class="img-fluid" src="../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
+
+                  </div>
+
+                  <div class="col-10 ">
+
+                    <h5>ThemeFusion</h5>
+                    <p>@Theme_Fusion</p>
+                    <p>Do you need sublime WordPress hosting for your next website? Take advantage of exclusive partner offers that we have secured yust for you, &amp; launch your site in seconds with <a href="#">#avada</a> on WP Engine hosting &amp; get 30% Off this Black Friday <a href="#">bit.ly/3kjLLE2</a> <a href="#">#BlackFriday2020</a></p>
+                    <img class="img-fluid" src="../assets/img/En2TRxLW4AEiWUN.jpeg" alt="">
+
+                    <div class="ms_tweet-footer">
+
+                      <div>
+
+                        <img src="../assets/img/image (2).svg" alt="">
+                        <img src="../assets/img/image (3).svg" alt="">
+
+                      </div>
+
+                      <p class="d-inline-block">21h</p>
+
+                    </div>
+
+                  </div>
+                  
                 </div>
+
               </div>
-                </div>
-              </div>
+
             </div>
+
           </div>
+
         </div>
+
       </aside>
+
     </div>
+
   </section>
+
 </template>
 
 <script>
