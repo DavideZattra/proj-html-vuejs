@@ -111,7 +111,12 @@ name : 'PopularRecipes'
 
     .ms_main-img{
         position: relative;
-        text-align: center;       
+        text-align: center; 
+        overflow: hidden;      
+
+        img{
+          transition: transform .5s ease;
+        }
 
         .text-hover{
         position: absolute;
@@ -158,6 +163,10 @@ name : 'PopularRecipes'
         }
     }
 
+    &:hover img{
+        transform: scale(1.05);
+    }
+
     
 }
 
@@ -167,9 +176,11 @@ name : 'PopularRecipes'
     flex-basis: 50%;
     margin-bottom: 16px;
     text-align: center;
+    overflow: hidden;
 
     img{
         width: 100%;
+        transition: transform .5s ease;
     }
 
     .text-hover{
@@ -203,6 +214,10 @@ name : 'PopularRecipes'
 
     &:hover .text-hover{
         display: flex;
+    }
+
+    &:hover img{
+        transform: scale(1.1);
     }
 }
 </style>
