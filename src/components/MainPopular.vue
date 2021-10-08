@@ -3,8 +3,8 @@
       <div class="row justify-content-center">
 
           <div class="col-12 text-center">
-              <h5>Popular recipes</h5>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto magni soluta maiores.</p>
+              <h5 class="text-uppercase">Popular recipes</h5>
+              <p class="pt-2 pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto magni soluta maiores.</p>
           </div>
           <div class="col-12 col-sm-6 ps-0">
               <div class="ms_main-card">
@@ -166,7 +166,14 @@ name : 'PopularRecipes'
     &:hover img{
         transform: scale(1.05);
     }
+    
+    h5{
+        font-size: 1.35rem;
+    }
 
+    pre{
+        font-size: 0.8rem
+    };
     
 }
 

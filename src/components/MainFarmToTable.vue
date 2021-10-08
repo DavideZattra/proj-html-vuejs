@@ -6,7 +6,7 @@
       <div class="col-12 col-md-8">
 
         <h5 class="text-uppercase">Farm to table</h5>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, saepe. Tempore officiis cumque velit accusamus.</p>
+        <p class="pt-2 pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, saepe. Tempore officiis cumque velit accusamus.</p>
 
       </div>
 
@@ -156,8 +156,11 @@
       </div>
       <aside class="col-12 col-lg-4 ms_right-col mb-5">
         <div class="row">
-          <div class="col-12 mb-3">
+          <div class="col-12 mb-3 position-relative">
             <img class="img-fluid" src="../assets/img/ad-bg.jpg" alt="">
+            <div class="ms_position-absolute">
+              <h2 class="">view our latest recipes</h2>
+            </div>
           </div>
           <div class="col-12 ms_city-guides">
             <img class="img-fluid" src="../assets/img/singapore-featured-image.jpg" alt="">
@@ -399,6 +402,26 @@ name: 'farm',
     }
   }
   .ms_right-col{
+
+    .ms_position-absolute{
+      height: 100%;
+      width: 100%;
+      padding: 40% 30%;
+
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      h2{
+        text-transform: uppercase;
+        text-align: center;
+
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+      }
+    }
+
     .ms_city-guides{
       position: relative;
       button{

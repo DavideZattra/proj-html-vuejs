@@ -58,6 +58,7 @@ name : 'Subscribe',
 .ms_image-slider{
     display: flex;
     .slider-img-container{
+        flex-basis: 25%;
         overflow: hidden;
         img{
             width: 100%;
@@ -67,8 +68,8 @@ name : 'Subscribe',
 
         }
 
-            img:hover{
-            
+        img:hover{
+        
             filter: blur(0);
             transform: scale(1);
         }

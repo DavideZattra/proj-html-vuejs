@@ -5,8 +5,8 @@
         
         <div class="col-12 col-md-8 text-center">
 
-            <h5>Culinary collection</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium itaque repellat dignissimos neque soluta.</p>
+            <h5 class="text-uppercase">Culinary collection</h5>
+            <p class="pt-2 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium itaque repellat dignissimos neque soluta.</p>
         </div>
     </div>
     <div class="row justify-content-center P-0">
