@@ -1,6 +1,6 @@
 <template>
   <main>
-    <Jumbotron />
+    <Jumbotron :foodieJournal="foodieJournal"/>
     <Popular />
     <Collection />
     <FarmToTable />
@@ -17,6 +17,7 @@ import Subscribe from './MainSubscribe.vue';
 
 export default {
 name : 'Main',
+props : ['foodieJournal'],
 components :{
   Jumbotron,
   Popular,

@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header :sectionList="sectionList"/>
-    <Main />
-    <Footer :sectionList="sectionList"/>
+    <Header :sectionList="sectionList" />
+    <Main :foodieJournal="foodieJournal" />
+    <Footer :sectionList="sectionList" />
   </div>
 </template>
 
@@ -50,6 +50,26 @@ export default {
           name : 'contact',
           url : '#ms_upper-footer',
           selected : false,
+        },
+      ],
+      foodieJournal : [
+        {
+          title: 'Food Corner: Top Japanese Restaurants for Sushi',
+          img : '../assets/img/single-post-img3.jpg',
+          author : 'Admin',
+          date: 'March 25th, 2019',
+        },
+        {
+          title: 'Roundup: My New Favourite Recipes for Healthy Living',
+          img : '../assets/img/fi-roundup.jpg',
+          author : 'Admin',
+          date: 'March 25th, 2019',
+        },
+        {
+          title: 'Why These Toast with Tea are My New Favourite',
+          img : '../assets/img/fi-toasts.jpg',
+          author : 'Admin',
+          date: 'March 25th, 2019',
         },
       ]
     }

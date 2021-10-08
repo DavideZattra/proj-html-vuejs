@@ -17,6 +17,18 @@
                 <h5 class="text-center text-uppercase">foodie journal</h5>
             </div>
 
+                <!-- IT WORKS BUT BROWSER DOESN'T LIKE IMAGES -->
+            <!-- <div class="col-4 ms_journal-cards" v-for="(element,index) in foodieJournal" :key="index">
+                <div class="journal-img">
+                  <img class="img-fluid" :src="element.img" alt="">
+                  <div class="text-hover">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                    <h5>{{element.title}}</h5>
+                  </div>
+                </div>
+                <h5>{{element.title}}</h5>
+                <p>By {{element.author}} | {{element.date}}</p>
+            </div> -->
             <div class="col-4 ms_journal-cards">
                 <div class="journal-img">
                   <img class="img-fluid" src="../assets/img/single-post-img3.jpg" alt="">
@@ -66,9 +78,11 @@
 
 export default {
 name : 'Jumbotron',
-components : {
-    // TodayPicks,
-    // FoodieJournal
+props : ['foodieJournal'],
+data : function(){
+  return{
+    counter : 0
+  }
 }
 }
 </script>
