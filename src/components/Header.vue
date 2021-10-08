@@ -6,14 +6,14 @@
         <div class="col-12 d-flex justify-content-between align-items-center">
     
           <ul class="d-flex p-0 ">
-
+            <!-- Buisness Links -->
             <li class="pt-2 ps-2 pe-2"><a href="#">Download App</a> <button class="btn">iOS</button></li>
             <li class="pt-2 ps-2 pe-2"><a href="#">Advertise with us</a></li>
 
           </ul>
 
           <ul class="d-flex p-0">
-
+            <!-- all the social media links -->
             <li class="pt-2 ps-2 pe-2"><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li class="pt-2 ps-2 pe-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
             <li class="pt-2 ps-2 pe-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -24,11 +24,13 @@
         </div>
         
         <div class="col-12 pt-2 pb-4 text-center">
+          <!-- avada Main Logo -->
           <a href="#"><img src="../assets/img/avada-food-logo.png" alt="Main Avada Logo"></a>
+
         </div>
 
         <div class="col-12 pb-2">
-
+          <!-- Main nav with all the links to the sections -->
           <nav class="ms_main-nav">
 
             <ul class="p-0 d-flex justify-content-between">
@@ -62,10 +64,6 @@ export default {
   components : {
   },
 
-  
-  
-  //   msg: String
-  // }
 }
 </script>
 
